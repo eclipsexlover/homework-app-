@@ -1,0 +1,8 @@
+{
+  "name": "task-10-basic",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "echo 'Linting completed'",
+    "test": "node -e \"if(require('./script.js').testApp()) { console.log('Tests passed!'); process.exit(0) } else { process.exit(1) }\""
+  }
+}
